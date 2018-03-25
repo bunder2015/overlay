@@ -79,11 +79,10 @@ src_test() {
 }
 
 src_install() {
-	python_fix_shebang invest-applet
 	mate_src_install
 
 	local APPLETS="accessx-status battstat charpick command cpufreq drivemount
-			geyes invest-applet mateweather multiload netspeed stickynotes
+			geyes mateweather multiload netspeed stickynotes
 			timerapplet trashapplet"
 
 	for applet in ${APPLETS}; do
