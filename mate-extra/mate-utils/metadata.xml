@@ -5,7 +5,10 @@
 		<email>mate@gentoo.org</email>
 		<name>Gentoo MATE Desktop</name>
 	</maintainer>
+	<use>
+		<flag name="applet">Enable the mate dictionary applet</flag>
+	</use>
 	<upstream>
-		<remote-id type="github">mate-desktop/eom</remote-id>
+		<remote-id type="github">mate-desktop/mate-utils</remote-id>
 	</upstream>
 </pkgmetadata>

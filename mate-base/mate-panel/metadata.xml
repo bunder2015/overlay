@@ -6,6 +6,6 @@
 		<name>Gentoo MATE Desktop</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">mate-desktop/eom</remote-id>
+		<remote-id type="github">mate-desktop/mate-panel</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -5,7 +5,10 @@
 		<email>mate@gentoo.org</email>
 		<name>Gentoo MATE Desktop</name>
 	</maintainer>
+	<use>
+		<flag name="appindicator">Add support for AppIndicator</flag>
+	</use>
 	<upstream>
-		<remote-id type="github">mate-desktop/eom</remote-id>
+		<remote-id type="github">mate-desktop/mate-control-center</remote-id>
 	</upstream>
 </pkgmetadata>

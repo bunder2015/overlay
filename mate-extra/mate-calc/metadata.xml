@@ -5,7 +5,10 @@
 		<email>mate@gentoo.org</email>
 		<name>Gentoo MATE Desktop</name>
 	</maintainer>
+	<longdescription>
+		MATE Calculator is a fork of gnome-calc, the calculator application that was previously in the OpenWindows Deskset of the Solaris 8 operating system.
+	</longdescription>
 	<upstream>
-		<remote-id type="github">mate-desktop/eom</remote-id>
+		<remote-id type="github">mate-desktop/mate-calc</remote-id>
 	</upstream>
 </pkgmetadata>

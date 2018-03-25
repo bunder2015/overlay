@@ -5,7 +5,10 @@
 		<email>mate@gentoo.org</email>
 		<name>Gentoo MATE Desktop</name>
 	</maintainer>
-	<upstream>
-		<remote-id type="github">mate-desktop/eom</remote-id>
-	</upstream>
+	<use>
+		<flag name="appindicator">Pull in <pkg>mate-extra/mate-indicator-applet</pkg>
+			for AppIndicator applet</flag>
+		<flag name="sensors">Pull in <pkg>mate-extra/mate-sensors-applet</pkg>
+			for hw sensors applet</flag>
+	</use>
 </pkgmetadata>
