@@ -1,9 +1,10 @@
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 inherit eutils cmake-utils git-r3
 
-DESCRIPTION="Linux SDL/ImGui edition software for viewing .brd files, intended as a drop-in replacement for the \"Test_Link\" software and \"Landrex\""
+DESCRIPTION="Linux SDL/ImGui edition software for viewing .brd files"
 HOMEPAGE="http://openboardview.org/"
 EGIT_REPO_URI="https://github.com/OpenBoardView/OpenBoardView"
 EGIT_COMMIT="R${PV}"
@@ -21,4 +22,3 @@ DEPEND="
 	media-libs/fontconfig
 "
 RDEPEND="${DEPEND}"
-
