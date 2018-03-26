@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -22,7 +22,7 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	>=dev-python/pygobject-3:3[${PYTHON_USEDEP}]
 	>=mate-base/mate-menus-1.20.0[introspection,python]
 	x11-libs/gdk-pixbuf:2[introspection]
-	x11-libs/gtk+:3[introspection]
+	>=x11-libs/gtk+-3.22:3[introspection]
 	virtual/libintl:0
 	!!x11-misc/mate-menu-editor"
 

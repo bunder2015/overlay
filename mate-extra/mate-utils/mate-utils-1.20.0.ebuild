@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -19,13 +19,13 @@ IUSE="X applet debug ipv6 test"
 
 COMMON_DEPEND="
 	dev-libs/atk:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=gnome-base/libgtop-2.12:2=
 	>=media-libs/libcanberra-0.4:0[gtk3]
 	sys-libs/zlib:0
 	x11-libs/cairo:0
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/libICE:0
 	x11-libs/libSM:0
 	x11-libs/libX11:0

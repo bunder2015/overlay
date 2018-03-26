@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -15,14 +15,14 @@ SLOT="0"
 
 IUSE=""
 
-COMMON_DEPEND=">=dev-libs/glib-2.36.0:2
+COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	dev-libs/libxml2:2
 	>=mate-base/mate-panel-1.20.0
 	>=mate-base/mate-desktop-1.20.0
 	>=media-libs/libcanberra-0.13:0[gtk3]
 	>=media-libs/libmatemixer-1.20.0
 	x11-libs/cairo:0
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/pango:0
 	virtual/libintl:0"
 

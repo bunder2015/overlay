@@ -17,11 +17,11 @@ SLOT="0"
 
 IUSE="+dbus hddtemp libnotify lm_sensors video_cards_nvidia"
 
-COMMON_DEPEND=">=dev-libs/glib-2.36:2
+COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	>=mate-base/mate-panel-1.20.0
 	>=x11-libs/cairo-1.0.4:0
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	virtual/libintl:0
 	hddtemp? (
 		dbus? (

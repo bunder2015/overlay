@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -20,7 +20,7 @@ IUSE="debug +introspection python"
 
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
-COMMON_DEPEND=">=dev-libs/glib-2.36.0:2
+COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	virtual/libintl:0
 	introspection? ( >=dev-libs/gobject-introspection-0.6.7:= )
 	python? (

@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -17,13 +17,13 @@ SLOT="0"
 
 IUSE="debug"
 
-COMMON_DEPEND=">=dev-libs/glib-2.36:2
+COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	>=dev-libs/libxml2-2.6:2
 	>=net-libs/libsoup-2.34:2.4
 	>=sys-libs/timezone-data-2010k:0
 	x11-libs/gdk-pixbuf:2
 	virtual/libintl:0
-	>=x11-libs/gtk+-3.0:3"
+	>=x11-libs/gtk+-3.22:3"
 
 RDEPEND="${COMMON_DEPEND}"
 

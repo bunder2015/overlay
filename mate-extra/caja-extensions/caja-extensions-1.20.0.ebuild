@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -18,11 +18,11 @@ SLOT="0"
 SENDTO="cdr gajim +mail pidgin upnp"
 IUSE="gksu image-converter +open-terminal share +wallpaper xattr ${SENDTO}"
 
-COMMON_DEPEND=">=dev-libs/glib-2.36:2
+COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	>=mate-base/caja-1.20.0
 	virtual/libintl:0
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	gajim? (
 		>=dev-libs/dbus-glib-0.60:0
 		>=sys-apps/dbus-1:0

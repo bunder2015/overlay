@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -20,7 +20,7 @@ IUSE="X +introspection"
 COMMON_DEPEND="
 	dev-libs/atk:0
 	>=dev-libs/dbus-glib-0.80:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=dev-libs/libmateweather-1.17.0
 	dev-libs/libxml2:2
 	>=gnome-base/dconf-0.13.4:0
@@ -30,7 +30,7 @@ COMMON_DEPEND="
 	>=sys-apps/dbus-1.1.2:0
 	>=x11-libs/cairo-1:0
 	>=x11-libs/gdk-pixbuf-2.7.1:2
-	>=x11-libs/gtk+-3.20:3[introspection?]
+	>=x11-libs/gtk+-3.22:3[introspection?]
 	x11-libs/libICE:0
 	x11-libs/libSM:0
 	>=x11-libs/libwnck-3.0:3[introspection?]

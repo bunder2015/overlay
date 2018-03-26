@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -16,7 +16,7 @@ SLOT="0"
 IUSE="+alsa oss pulseaudio"
 
 COMMON_DEPEND="
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	sys-devel/gettext:*
 	alsa? ( >=media-libs/alsa-lib-1.0.5 )
 	pulseaudio? ( >=media-sound/pulseaudio-2.0.0:0[alsa?,glib] )"

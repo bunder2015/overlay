@@ -21,7 +21,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 COMMON_DEPEND="${PYTHON_DEPS}
 	dev-libs/atk:0
 	>=dev-libs/dbus-glib-0.74:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=dev-libs/libmateweather-1.20.0
 	>=dev-libs/libxml2-2.5:2
 	dev-python/pygobject:3
@@ -32,7 +32,7 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	>=sys-apps/dbus-1.1.2:0
 	sys-power/cpupower
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/gtksourceview:3.0
 	>=x11-libs/libnotify-0.7:0
 	x11-libs/libX11:0

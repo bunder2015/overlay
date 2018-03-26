@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -20,7 +20,7 @@ IUSE="appindicator debug"
 COMMON_DEPEND="
 	dev-libs/atk:0
 	>=dev-libs/dbus-glib-0.73:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	dev-libs/libxml2:2
 	>=gnome-base/dconf-0.13.4:0
 	>=gnome-base/librsvg-2.0:2
@@ -36,7 +36,7 @@ COMMON_DEPEND="
 	x11-apps/xmodmap:0
 	x11-libs/cairo:0
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/libX11:0
 	x11-libs/libXScrnSaver:0
 	x11-libs/libXcursor:0

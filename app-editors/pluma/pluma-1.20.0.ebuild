@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -26,12 +26,12 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="test"
 
 COMMON_DEPEND="dev-libs/atk:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=dev-libs/libpeas-1.2.0[gtk]
 	>=dev-libs/libxml2-2.5:2
 	x11-libs/cairo:0
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14.0:3[introspection?]
+	>=x11-libs/gtk+-3.22:3[introspection?]
 	>=x11-libs/gtksourceview-3.0.0:3.0
 	x11-libs/libICE:0
 	x11-libs/libX11:0

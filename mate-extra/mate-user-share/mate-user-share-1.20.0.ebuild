@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -19,12 +19,12 @@ IUSE="X"
 
 COMMON_DEPEND="
 	>=dev-libs/dbus-glib-0.70:0
-	>=dev-libs/glib-2.15.2:2
+	>=dev-libs/glib-2.50:2
 	>=mate-base/caja-1.20.0
 	media-libs/libcanberra:0[gtk3]
 	>=sys-apps/dbus-1.1.1:0
 	>=x11-libs/gdk-pixbuf-2:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/libX11:0
 	x11-libs/pango:0
 	>=x11-libs/libnotify-0.7:0

@@ -22,11 +22,11 @@ IUSE="debug elibc_FreeBSD gnome-keyring ipv6 systemd +xtrans"
 # xdg-user-dirs-update is run during login (see 10-user-dirs-update-gnome below).
 
 COMMON_DEPEND=">=dev-libs/dbus-glib-0.76
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	dev-libs/libxslt
 	sys-apps/dbus
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/libICE
 	x11-libs/libSM
 	x11-libs/libX11

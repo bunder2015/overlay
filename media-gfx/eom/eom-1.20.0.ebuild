@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -17,7 +17,7 @@ IUSE="X debug dbus exif +introspection jpeg lcms svg tiff xmp"
 
 COMMON_DEPEND="
 	dev-libs/atk:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=dev-libs/libpeas-1.2.0[gtk]
 	>=dev-libs/libxml2-2:2
 	gnome-base/dconf:0
@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	sys-libs/zlib:0
 	x11-libs/cairo:0
 	>=x11-libs/gdk-pixbuf-2.4:2[introspection?,jpeg?,tiff?]
-	>=x11-libs/gtk+-3.14:3[introspection?]
+	>=x11-libs/gtk+-3.22:3[introspection?]
 	x11-libs/libX11:0
 	>=x11-misc/shared-mime-info-0.20:0
 	virtual/libintl:0
