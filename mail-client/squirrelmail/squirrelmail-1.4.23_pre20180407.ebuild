@@ -19,7 +19,7 @@ LOCALES_VER=1.4.18-20090526
 DECODING_VER=1.2
 
 #MY_P=${PN}-webmail-${PV}
-MY_P=${PN}-${PVR##*_pre}_0202-SVN.stable
+MY_P=${PN}-${PVR##*_pre}_0200-SVN.stable
 #S="${WORKDIR}/${MY_P}"
 S="${WORKDIR}/${PN}.stable/${PN}"
 
