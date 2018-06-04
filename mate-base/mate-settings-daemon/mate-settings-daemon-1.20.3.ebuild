@@ -23,7 +23,7 @@ COMMON_DEPEND=">=dev-libs/dbus-glib-0.74:0
 	>=dev-libs/glib-2.50:2
 	>=gnome-base/dconf-0.13.4:0
 	>=mate-base/libmatekbd-1.20.0
-	>=mate-base/mate-desktop-1.20.0
+	>=mate-base/mate-desktop-1.20.2
 	media-libs/fontconfig:1.0
 	x11-libs/cairo:0
 	x11-libs/gdk-pixbuf:2
