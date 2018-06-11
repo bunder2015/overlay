@@ -64,8 +64,6 @@ DEPEND="${COMMON_DEPEND}
 # Tests use dogtail which is not available on Gentoo.
 RESTRICT="test"
 
-PATCHES=( "${FILESDIR}/${PN}-1.20.1-evjobs.patch" )
-
 src_configure() {
 	# Passing --disable-help would drop offline help, that would be inconsistent
 	# with helps of the most of GNOME apps that doesn't require network for that.
