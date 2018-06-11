@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	x11-libs/gdk-pixbuf:2
 	x11-libs/pango:0
 	virtual/libintl:0
-	caja? ( >=mate-base/caja-1.20.0 )
+	caja? ( >=mate-base/caja-1.17.1 )
 	>=x11-libs/gtk+-3.22:3[X]
 	magic? ( sys-apps/file )
 	packagekit? ( app-admin/packagekit-base )

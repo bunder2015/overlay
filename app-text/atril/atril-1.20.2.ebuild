@@ -31,7 +31,7 @@ COMMON_DEPEND=">=app-text/poppler-0.22[cairo]
 	x11-libs/libX11:0
 	>=x11-libs/cairo-1.9.10:0
 	x11-libs/pango:0
-	caja? ( >=mate-base/caja-1.20.0[introspection?] )
+	caja? ( >=mate-base/caja-1.17.1[introspection?] )
 	djvu? ( >=app-text/djvu-3.5.17:0 )
 	dvi? (
 		virtual/tex-base:0

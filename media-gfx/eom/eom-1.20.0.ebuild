@@ -18,13 +18,13 @@ IUSE="X debug dbus exif +introspection jpeg lcms svg tiff xmp"
 COMMON_DEPEND="
 	dev-libs/atk:0
 	>=dev-libs/glib-2.50:2
-	>=dev-libs/libpeas-1.2.0[gtk]
+	>=dev-libs/libpeas-1.8.0[gtk]
 	>=dev-libs/libxml2-2:2
 	gnome-base/dconf:0
-	>=mate-base/mate-desktop-1.20.0
+	>=mate-base/mate-desktop-1.17.0
 	sys-libs/zlib:0
 	x11-libs/cairo:0
-	>=x11-libs/gdk-pixbuf-2.4:2[introspection?,jpeg?,tiff?]
+	>=x11-libs/gdk-pixbuf-2.30:2[introspection?,jpeg?,tiff?]
 	>=x11-libs/gtk+-3.22:3[introspection?]
 	x11-libs/libX11:0
 	>=x11-misc/shared-mime-info-0.20:0
