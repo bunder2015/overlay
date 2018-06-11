@@ -29,7 +29,7 @@ COMMON_DEPEND="
 RDEPEND="${COMMON_DEPEND}"
 
 DEPEND="${COMMON_DEPEND}
-	x11-proto/xproto:0
+	x11-base/xorg-proto:0
 	>=dev-util/intltool-0.50.1:*
 	sys-devel/gettext:*
 	virtual/pkgconfig:*"

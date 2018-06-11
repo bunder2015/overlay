@@ -50,10 +50,9 @@ DEPEND="${COMMON_DEPEND}
 	>=dev-util/intltool-0.34.90:*
 	sys-devel/gettext:*
 	virtual/pkgconfig:*
-	x11-proto/xextproto:0
-	x11-proto/xproto:0
+	x11-base/xorg-proto:0
 	test? ( app-text/docbook-xml-dtd:4.5 )
-	xinerama? ( x11-proto/xineramaproto:0 )"
+	xinerama? ( x11-base/xorg-proto:0 )"
 
 src_configure() {
 	mate_src_configure \

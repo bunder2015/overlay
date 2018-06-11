@@ -47,8 +47,7 @@ DEPEND="${COMMON_DEPEND}
 	>=app-text/scrollkeeper-dtd-1:1.0
 	app-text/yelp-tools:0
 	>=dev-util/intltool-0.50.1:*
-	x11-proto/randrproto:0
-	>=x11-proto/xproto-7.0.15:0
+	x11-base/xorg-proto:0
 	sys-devel/gettext:*
 	virtual/pkgconfig:*"
 

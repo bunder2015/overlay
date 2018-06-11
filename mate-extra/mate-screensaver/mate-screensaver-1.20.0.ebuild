@@ -54,10 +54,7 @@ RDEPEND="${COMMON_DEPEND}
 DEPEND="${COMMON_DEPEND}
 	>=dev-util/intltool-0.50.1:*
 	sys-devel/gettext:*
-	x11-proto/randrproto:0
-	x11-proto/scrnsaverproto:0
-	x11-proto/xextproto:0
-	x11-proto/xf86miscproto:0
+	x11-base/xorg-proto:0
 	virtual/pkgconfig:*"
 
 src_configure() {

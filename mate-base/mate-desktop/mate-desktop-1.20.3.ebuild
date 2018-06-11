@@ -36,8 +36,7 @@ DEPEND="${COMMON_DEPEND}
 	dev-util/gtk-doc-am
 	>=dev-util/intltool-0.40:*
 	sys-devel/gettext:*
-	>=x11-proto/randrproto-1.3:0
-	x11-proto/xproto:0
+	x11-base/xorg-proto:0
 	virtual/pkgconfig:*"
 
 src_configure() {
