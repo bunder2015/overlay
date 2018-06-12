@@ -31,7 +31,7 @@ COMMON_DEPEND=">=dev-libs/dbus-glib-0.70:0
 	x11-libs/libXrandr:0
 	>=x11-libs/libnotify-0.7:0
 	x11-libs/pango:0
-	applet? ( >=mate-base/mate-panel-1.20.0 )
+	applet? ( >=mate-base/mate-panel-1.17.0 )
 	gnome-keyring? ( >=gnome-base/libgnome-keyring-3:0 )
 	pm-utils? ( >=sys-power/upower-pm-utils-0.9.23 )
 	!pm-utils? ( >=sys-power/upower-0.9.23:= )

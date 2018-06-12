@@ -22,7 +22,7 @@ COMMON_DEPEND="dev-libs/atk:0
 	>=dev-libs/libxml2-2.4.7:2
 	gnome-base/dconf:0
 	>=gnome-base/gvfs-1.10.1:0[udisks]
-	>=mate-base/mate-desktop-1.20.0:0
+	>=mate-base/mate-desktop-1.17.3:0
 	>=media-libs/libexif-0.6.14:0
 	virtual/libintl:0
 	x11-libs/cairo:0

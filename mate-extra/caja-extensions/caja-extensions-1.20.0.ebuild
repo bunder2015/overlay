@@ -19,7 +19,7 @@ SENDTO="cdr gajim +mail pidgin upnp"
 IUSE="gksu image-converter +open-terminal share +wallpaper xattr ${SENDTO}"
 
 COMMON_DEPEND=">=dev-libs/glib-2.50:2
-	>=mate-base/caja-1.20.0
+	>=mate-base/caja-1.17.1
 	virtual/libintl:0
 	x11-libs/gdk-pixbuf:2
 	>=x11-libs/gtk+-3.22:3
@@ -27,7 +27,7 @@ COMMON_DEPEND=">=dev-libs/glib-2.50:2
 		>=dev-libs/dbus-glib-0.60:0
 		>=sys-apps/dbus-1:0
 	)
-	open-terminal? ( >=mate-base/mate-desktop-1.20.0 )
+	open-terminal? ( >=mate-base/mate-desktop-1.17.0 )
 	pidgin? ( >=dev-libs/dbus-glib-0.60:0 )
 	upnp? ( >=net-libs/gupnp-0.13:0= )
 	xattr? ( sys-apps/attr )"

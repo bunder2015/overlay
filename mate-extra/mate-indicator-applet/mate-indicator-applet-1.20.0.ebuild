@@ -17,7 +17,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	>=dev-libs/libindicator-0.4:3
-	>=mate-base/mate-panel-1.20.0
+	>=mate-base/mate-panel-1.17.0
 	>=x11-libs/gtk+-3.22:3"
 
 RDEPEND="${COMMON_DEPEND}"

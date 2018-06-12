@@ -18,9 +18,9 @@ IUSE=""
 COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	dev-libs/libxml2:2
 	>=mate-base/mate-panel-1.20.0
-	>=mate-base/mate-desktop-1.20.0
+	>=mate-base/mate-desktop-1.17.0
 	>=media-libs/libcanberra-0.13:0[gtk3]
-	>=media-libs/libmatemixer-1.20.0
+	>=media-libs/libmatemixer-1.10.0
 	x11-libs/cairo:0
 	>=x11-libs/gtk+-3.22:3
 	x11-libs/pango:0

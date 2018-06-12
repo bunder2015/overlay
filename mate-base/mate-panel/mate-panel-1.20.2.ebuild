@@ -25,8 +25,8 @@ COMMON_DEPEND="
 	dev-libs/libxml2:2
 	>=gnome-base/dconf-0.13.4:0
 	>=gnome-base/librsvg-2.36.2:2
-	>=mate-base/mate-desktop-1.20.0
-	>=mate-base/mate-menus-1.20.0
+	>=mate-base/mate-desktop-1.17.0
+	>=mate-base/mate-menus-1.10.0
 	>=sys-apps/dbus-1.1.2:0
 	>=x11-libs/cairo-1:0
 	>=x11-libs/gdk-pixbuf-2.7.1:2

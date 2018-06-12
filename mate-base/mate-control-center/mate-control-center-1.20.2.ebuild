@@ -24,11 +24,11 @@ COMMON_DEPEND="
 	dev-libs/libxml2:2
 	>=gnome-base/dconf-0.13.4:0
 	>=gnome-base/librsvg-2.0:2
-	>=mate-base/libmatekbd-1.20.0
-	>=mate-base/mate-desktop-1.20.0
+	>=mate-base/libmatekbd-1.17.0
+	>=mate-base/mate-desktop-1.17.0
 	>=mate-base/caja-1.20.0
-	>=mate-base/mate-menus-1.20.0
-	>=mate-base/mate-settings-daemon-1.20.0
+	>=mate-base/mate-menus-1.1.0
+	>=mate-base/mate-settings-daemon-1.17.0
 	>=media-libs/fontconfig-1:1.0
 	media-libs/freetype:2
 	media-libs/libcanberra:0[gtk3]

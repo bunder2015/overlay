@@ -22,12 +22,12 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	dev-libs/atk:0
 	>=dev-libs/dbus-glib-0.74:0
 	>=dev-libs/glib-2.50:2
-	>=dev-libs/libmateweather-1.20.0
+	>=dev-libs/libmateweather-1.17.0
 	>=dev-libs/libxml2-2.5:2
 	dev-python/pygobject:3
 	>=gnome-base/libgtop-2.12.0:2=
 	>=gnome-extra/gucharmap-3.0:2.90
-	>=mate-base/mate-panel-1.20.0
+	>=mate-base/mate-panel-1.17.0
 	>=net-wireless/wireless-tools-28_pre9:0
 	>=sys-apps/dbus-1.1.2:0
 	sys-power/cpupower
