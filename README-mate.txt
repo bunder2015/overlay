@@ -1,4 +1,4 @@
-Recommended settings for Mate 1.20
+Recommended settings for MATE 1.20
 
 Profile:
 default/linux/amd64/17.0/desktop

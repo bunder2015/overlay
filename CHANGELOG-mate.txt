@@ -1,0 +1,236 @@
+Changes from upstream since MATE 1.20
+
+### engrampa (archive manager)
+  * sync with transifex
+  * Add .a (Ar) support
+  * fix crash on exit after using Open With dialog
+
+### pluma (text editor)
+  * Make notebook tabs scrollable
+  * sync with transifex
+  * pluma-notebook: avoid new file with double click in vertical scrollbar
+  * pluma-notebook: avoid new file with double click in forward arrow button
+  * 1.20: pluma-notebook: Fix: unexpected behavior with dnd selected text
+  * pluma-view: Fix: unexpected behavior with dnd under line numbers
+  * pluma-print-preview: Fix weird behavior with mouse buttons
+  * Fix: Pluma crashes with mouse wheel over a tab
+  * pluma-view.c: Fix: GtkCheckMenuItem "Display line numbers" improved
+
+### atril (document viewer)
+  * Disable view presentation if there is no document.
+  * Allow changing the page of a presentation
+  * libview: Fix goto window in presentation mode
+  * libview: avoid deprecated gdk_screen_get_monitor
+  * EvPresentationView: Render correctly on hi-dpi displays
+  * libview: Fix g_return condition in set_device_scale_on_surface()
+  * EvView: render correctly on hi-dpi displays
+  * libview: use css to draw the background of presentations
+  * Move custom css to a file compiled as a gresource
+  * shell: Use GResource for data files
+  * toolbar-editor: Add methods to load from GResource
+  * previewer: Use GResource for data files
+  * build: Add configure check for glib-compile-resources
+  * update resource for translations
+  * libview: Check number of pages when processing button events
+  * libview: Add check for pageless documents to ev_view_accessible_focus_changed
+  * libview: Check number of pages on ev_view_document_changed_cb
+  * Use GtkOverlay to show the loading message
+  * shell: Remove unused marshalers
+  * thumbnailer: Send error messages to stderr
+  * shell: Use GtkApplication to inhibit the screensaver
+  * shell: Port to GtkApplication
+  * shell: Use g_printerr instead of g_warning
+  * daemon: Port to GApplication
+  * daemon: Use gdbus-codegen for the org.mate.atril.Daemon interface
+  * shell: Use gdbus-codegen for the org.mate.atril.Window interface
+  * shell: Use gdbus-codegen for the org.mate.atril.Application interface
+  * libview: save inverted colors in a document
+  * Save/restore context when getting colors for a different state
+  * epub: allow to save epub documents
+  * epub:  fix loading epub thumbnails
+  * shell: fix menu-accel for inverted colors
+  * shell: add keypad accels for zoom_reset
+  * Add zoom reset
+  * avoid deprecated GtkStock
+  * Check legal boundaries of accessible pages
+  * Translations update
+  * disable StartPresentation action in fullscreen if document has no pages
+  * disable ViewPresentation action if document has no pages
+  * libdocument: Use gdk_pixbuf_get_from_surface()
+  * thumbnailer: Remove unused code
+  * view: Fix page background rendering while loading
+  * libdocument: Deprecate misc_get_page_border_size()
+  * view: Use a rendered frame instead of custom border
+  * a11y: Return correct start and end offsets
+  * a11y: Fix crash with Orca screen reader
+  * libview: drop deprecated unneeded code
+  * ev-loading-message: Remove unused variables
+  * libview: fix text selection with mouse in annotation window
+  * libview: fix build without epub
+
+### libmateweather
+  * Translations update
+  * locations: Add Feira de Santana, Brazil
+  * weather-moon: fix weird thing in comments
+  * metar: fix searching for string to parse
+  * metar: fix indent somewhat
+
+### caja (file manager)
+  * tx: update translations
+  * remove runtime warning in usage of caja_clipboard_set_up_editable
+  * can selected all the search keywords with Ctrl+a.
+  * fix backgrounds and emblems dialog content rendering
+  * Fix warnings from HiDPI commits
+  * sidebar: Respect sidebar dimensions on HiDPI
+  * HiDPI: Convert Pixbufs to Cairo Surfaces
+  * general: use gdk_monitor_get_scale_factor
+  * list-view: use the cairo surface as a drag icon
+  * Scale screen dimensions
+  * icon-info: hash/store icons using scale factor as well as size
+  * file: support HiDpi for thumbnails images
+  * properties-window: support HiDpi for the properties window icon
+  * Support HiDpi icons
+  * canvas-container: listen to scale factor to invalidate icons
+  * canvas-item: use gtk_render_icon_surface for the DnD surface
+  * desktop-canvas-view: scale desktop workarea
+  * modify code error: end the statement with a semicolon
+
+### libmatekbd
+  * Translations update
+  * Use gdk screen resolution for font in keyboard status notification icon
+
+### mate-applets
+  * Fix cpufreq applet spacing on HiDPI displays
+  * multiload: add style class multiload-applet
+  * sync with transifex
+  * accessx: Convert icons from pixbuf to cairo surfaces
+  * netspeed: Use theme icons instead of embedded
+  * battstat: Load theme icons instead of pixmaps
+  * Convert applet icons from pixbuf to surfaces
+  * multiload: solving type mismatch in g_settings_set_value
+  * multiload: only text formatting to prepare for real change
+
+### mate-control-center
+  * Add auto-detect toggle switch for font DPI.
+  * Fix screen geometry when snapping windows on rotated displays.
+  * Fix segfaults in theme installers.
+  * Scale cursor size for HiDPI when changing themes
+  * sync with transifex
+  * display-capplet: add css name for scrollarea
+  * Change cursor-size to 24px
+
+### mate-desktop (the package)
+  * Translations update
+  * Add toggle for synchronizing QT_SCALE_FACTOR to GDK_SCALE_FACTOR
+  * Change default cursor-size to 24px
+  * Support background fallback on HiDPI
+  * mate-rr-labeler: fix font-color for dark themes
+  * bump version again to fix previous release 
+
+### mate-menus
+  * Translations update
+
+### mate-panel
+  * workspace-switcher: support i3 WM
+  * Fix rendering of out-of-process window list with hidpi
+  * workspace-switcher: support metacity WM
+  * Apply fix for workspace-switcher
+  * hidpi: fix tray icon spacing with window-scaling > 1
+  * Fix out-of-process applet sizes for HiDPI
+  * Fix hide buttons make panel bigger
+  * run dialog: force icon size when loading app icon
+  * run dialog: fix expand of content on window resize
+  * Fix run dialog show-program-list enabling fix
+  * run-dialog: use F6 to switch between entry field and program list
+  * Fix strut sizes for HiDPI multi-monitors
+  * Do not down-scale monitor geometries for GDK monitors
+  * Scale monitor geometries down to device pixels to support multiple monitors in HiDPI
+  * Drawer cleanup and fix arrow behavior
+  * sync with transifex
+  * update mate-panel.pot
+  * Convert launcher icons to cairo surfaces
+  * fix rendering and removal of in-process applets on unexpanded panel
+  * limit size of panel-hide-button
+  * clock: fix weird thing in comments
+  * clock: fix copy/paste error which caused use-after-free
+  * fish: Install fish animations in fish-specific directory
+  * fish: drop wanda image from gresource
+  * css: use parsing-error signal to warn on bad css file or image
+  * css: Convert to GResource
+  * na-tray: Convert to GResource
+  * wncklet: Convert to GResource
+  * panel: Convert to GResource
+  * clock: Use new GdkPixbuf API to load resources
+  * clock: Convert to GResource
+  * fish: Convert to GResource
+  * libpanel-applet: Add panel_applet_setup_menu_from_resource() API
+  * Theme: consistant theming for applet drag handles in all themes
+  * Revert "panel-toplevel: Remove pointer boundary check in panel_toplevel_queue_auto_hide()"
+  * Accessibility: white/black applet handles in GNOME high contrast themes
+  * Theme: show applet handles on non-MATE themes
+
+### mate-settings-daemon
+  * Prevent media-keys bindings from swallowing modifier keys
+  * Scale OSD size correctly on HiDPI displays
+  * Translations update
+  * bump mate-desktop requirement
+  * Make setting QT_SCALE_FACTOR optional.
+  * Support background fallback on HiDPI
+  * bump version again to fix previous release 
+
+### caja-extensions
+  * Translations update
+
+### mate-calc
+  * math-preferences: add window icon to Preferences dialog
+  * Init gtk before math_equation_new
+  * Translations update
+
+### mate-media
+  * sync with transifex
+
+### mate-polkit
+  * Translations update
+
+### mate-power-manager
+  * add missing window icon to About dialogs
+  * Scale OSD size correctly on HiDPI displays (#246)
+  * Grammar fix
+  * Translations update
+  * inhibit: always scale icon to match panel size
+  * Inhibit Applet: Fix excessive CPU use
+
+### mate-screensaver
+  * Translations update
+
+### mate-sensors-applet
+  * Translations update
+  * fix save order of sensors v2
+  * prefs-dialog: drop unneeded space in general tab
+  * prefs-dialog: set a min_width for enable_column
+  * prefs-dialog: use hscrollbar-policy GTK_POLICY_NEVER
+
+### eom (eye of MATE graphics viewer)
+  * Translations update
+  * svg: Fix offset coordinates when transforming SVG images on HiDPI displays
+  * Scale HiDPI images correctly
+  * fix some -Wincompatible-pointer-types warnings
+
+### libmatemixer
+  * Translations update
+
+### mate-notification-daemon
+  * Translations update
+
+### mate-icon-theme
+  * mate: add audio-volume-off
+  * Translations update
+
+### marco (window manager)
+  * Translations update
+  * Fix cursor size on HiDPI displays.
+  * Fix mismatched enums in keybinding detection for switch-panels and switch-panels-backward.
+  * Fix move_to_center moving window between monitors.
+  * Support HiDPI window decorations.
+  * Correct resize popup position on HiDPI displays
+  * Fix frame geometry to avoid stuck resize cursor
