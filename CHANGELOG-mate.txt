@@ -204,11 +204,11 @@ Changes from upstream since MATE 1.20
   * Translations update
 
 ### mate-sensors-applet
-  * Translations update
   * fix save order of sensors v2
   * prefs-dialog: drop unneeded space in general tab
   * prefs-dialog: set a min_width for enable_column
   * prefs-dialog: use hscrollbar-policy GTK_POLICY_NEVER
+  * Translations update
 
 ### eom (eye of MATE graphics viewer)
   * Translations update
@@ -234,3 +234,12 @@ Changes from upstream since MATE 1.20
   * Support HiDPI window decorations.
   * Correct resize popup position on HiDPI displays
   * Fix frame geometry to avoid stuck resize cursor
+
+### mate-session-manager
+  * Translations update
+  * Fix broken link in man pages
+
+### mate-system-monitor
+  * Translations update
+  * fix crash on systems with pid 0
+  * Update interval text in resources tab corrected
