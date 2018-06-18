@@ -247,3 +247,9 @@ Changes from upstream since MATE 1.20:
   * Translations update
   * fix crash on systems with pid 0
   * Update interval text in resources tab corrected
+
+### mate-indicator-applet
+  * Translations update
+
+### mate-netbook
+  * Translations update
