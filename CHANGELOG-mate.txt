@@ -253,3 +253,20 @@ Changes from upstream since MATE 1.20:
 
 ### mate-netbook
   * Translations update
+
+### mate-terminal
+  * Translations update
+  * terminal-window: Fix Session dbus daemon saturated
+
+### mate-user-guide
+  * Translations update of content
+
+### mate-user-share
+  * Translations update
+
+### mate-utils
+  * Translations update
+
+### mozo (menu editor)
+  * Translations update
+
