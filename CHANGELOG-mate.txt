@@ -270,3 +270,5 @@ Changes from upstream since MATE 1.20:
 ### mozo (menu editor)
   * Translations update
 
+### python-caja
+  * Translations update
