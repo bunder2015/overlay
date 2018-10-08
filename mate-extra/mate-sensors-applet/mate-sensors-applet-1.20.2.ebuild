@@ -32,7 +32,6 @@ COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	lm_sensors? ( sys-apps/lm_sensors:0 )
 	video_cards_nvidia? ( || (
 		>=x11-drivers/nvidia-drivers-100.14.09:0[static-libs,tools]
-		media-video/nvidia-settings:0
 	) )"
 
 RDEPEND="${COMMON_DEPEND}"

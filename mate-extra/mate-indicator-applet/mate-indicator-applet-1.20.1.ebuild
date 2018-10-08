@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit mate versionator
+inherit mate eapi7-ver
 
 if [[ ${PV} != 9999 ]]; then
 	KEYWORDS="~amd64 ~arm ~x86"
