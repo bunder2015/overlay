@@ -19,6 +19,21 @@ Changes from upstream since MATE 1.20:
   * pluma-print-preview: Fix weird behavior with mouse buttons
   * Fix: Pluma crashes with mouse wheel over a tab
   * pluma-view.c: Fix: GtkCheckMenuItem "Display line numbers" improved
+  * Translations update
+  * Use make functions for HELP_LINGUAS
+  * Refer to the strftime(3) man page for more information...
+  * Refer to the pluma(1) man page for more information...
+  * Remove unused screenshots
+  * Fix spelling and grammar mistakes
+  * help: fix help links
+  * Use actual pluma screenshot for Catalan
+  * Use actual pluma screenshot
+  * add userguide to transifex config
+  * Fix spelling and grammar mistakes
+  * pluma-document: Fix: don't crash using files with 'bom'
+  * pluma-view: Fix: unexpectedly switch between tabs
+  * close-confirmation-dialog: Fix: don't resize the dialog unexpectedly
+  * pluma-sort-plugin: avoid extra empty line
 
 ### atril (document viewer)
   * Disable view presentation if there is no document.
