@@ -123,6 +123,15 @@ Changes from upstream since MATE 1.20:
   * canvas-item: use gtk_render_icon_surface for the DnD surface
   * desktop-canvas-view: scale desktop workarea
   * modify code error: end the statement with a semicolon
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * Fix segfault on stopping USB hard drives
+  * fm-properties-window: Fix memory leaks
+  * caja-desktop-link-monitor: Fix memory leak
+  * Fix case-insensitive comparison in running_in_mate
+  * pathbar: Activate pane when changing location
+  * caja-window: Fix: mouse doesn't work with [ctrl] + [.] or [ctrl] + [;]
+  * desktop window: Add is-desktop AtkObject attribute
 
 ### libmatekbd
   * Translations update
@@ -219,6 +228,7 @@ Changes from upstream since MATE 1.20:
   * bump version again to fix previous release 
 
 ### caja-extensions
+  * Translations update
   * Translations update
 
 ### mate-calc
