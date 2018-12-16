@@ -112,6 +112,8 @@ Changes from upstream since MATE 1.20:
   * weather-moon: fix weird thing in comments
   * metar: fix searching for string to parse
   * metar: fix indent somewhat
+  * Translations update
+  * locations: Clean up municipalities of Puerto Rico
 
 ### caja (file manager)
   * tx: update translations
@@ -277,6 +279,25 @@ Changes from upstream since MATE 1.20:
   * svg: Fix offset coordinates when transforming SVG images on HiDPI displays
   * Scale HiDPI images correctly
   * fix some -Wincompatible-pointer-types warnings
+  * Translations update
+  * Reduce the number of g_file_query_info calls at start-up
+  * EomImage: Remove unused constructor
+  * Use make functions for HELP_LINGUAS
+  * Fix url of ulink to point to mate-user-guide
+  * Update Catalan screenhots
+  * Fix spelling and grammar mistakes
+  * Update eom_start_window.png
+  * tx: add eom help to transifex config
+  * fix a memory leak
+  * exif-details: make value column selectable
+  * EomExifDetails: Take Exif IFD into account when creating hash keys
+  * Place GPS Exif tags into their own subcategory
+  * Reformat Exif tags for GPS position to be better understandable
+  * Make sure GPS Exif tags are named and ordered correctly
+  * EomPropertiesDialog: Make details view expand vertically
+  * EogScrollView: Implement simple two-pass filtering
+  * EomScrollView: Use better downscaling filter
+  * reload: ensure that pending updates to UI are complete
 
 ### libmatemixer
   * Translations update
