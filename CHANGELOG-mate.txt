@@ -151,13 +151,33 @@ Changes from upstream since MATE 1.20:
 ### mate-applets
   * Fix cpufreq applet spacing on HiDPI displays
   * multiload: add style class multiload-applet
-  * sync with transifex
+  * Translations update
   * accessx: Convert icons from pixbuf to cairo surfaces
   * netspeed: Use theme icons instead of embedded
   * battstat: Load theme icons instead of pixmaps
   * Convert applet icons from pixbuf to surfaces
   * multiload: solving type mismatch in g_settings_set_value
   * multiload: only text formatting to prepare for real change
+  * Translations update
+  * Use make functions for HELP_LINGUAS
+  * Netspeed Manual: clean up
+  * Manual: Linux and UNIX systems -> Linux and other Unix-like systems
+  * Use orderedlist to describe the steps to add the applet to a panel
+  * Manual: Fix Add to Panel dialog title
+  * Eyes Applet: Fix window title and factory name
+  * Manual: OK -> Add (Add to Panel dialog)
+  * trashapplet manual: Open Trash guimenuitem
+  * Add/Update Catalan screenshots
+  * Fix name of Eyes applet
+  * Refer to the fstab(5) man page for more information...
+  * Remove unused png files
+  * Fix url of ulink to point to mate-user-guide
+  * Fix spelling and grammar mistakes
+  * legal.xml
+  * add applets help to transifex config
+  * Cpufreq: Force the frequency label to render if frequencies are not found right away
+  * Cpufreq: Refactor to remove more GTK2 leftovers
+  * Cpufreq: ensure frequency label always shows up if freq selected
 
 ### mate-control-center
   * Add auto-detect toggle switch for font DPI.
