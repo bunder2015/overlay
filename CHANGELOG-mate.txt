@@ -359,8 +359,11 @@ Changes from upstream since MATE 1.20:
   * Fix mismatched enums in keybinding detection for switch-panels and switch-panels-backward.
   * Fix move_to_center moving window between monitors.
   * Support HiDPI window decorations.
+  * Translations update
   * Correct resize popup position on HiDPI displays
   * Fix frame geometry to avoid stuck resize cursor
+  * disable deprecation warnings for distcheck
+  * Translations update
 
 ### mate-session-manager
   * Translations update
