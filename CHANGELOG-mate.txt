@@ -200,11 +200,14 @@ Changes from upstream since MATE 1.20:
 
 ### mate-desktop (the package)
   * Translations update
+  * Translations update
   * Add toggle for synchronizing QT_SCALE_FACTOR to GDK_SCALE_FACTOR
   * Change default cursor-size to 24px
   * Support background fallback on HiDPI
   * mate-rr-labeler: fix font-color for dark themes
   * bump version again to fix previous release 
+  * disable deprecation warnings for distcheck
+  * Translations update
 
 ### mate-menus
   * Translations update
