@@ -211,6 +211,8 @@ Changes from upstream since MATE 1.20:
 
 ### mate-menus
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
 
 ### mate-panel
   * workspace-switcher: support i3 WM
@@ -289,7 +291,8 @@ Changes from upstream since MATE 1.20:
   * Copy equation as ASCII text
 
 ### mate-media
-  * sync with transifex
+  * Translations update
+  * Translations update
 
 ### mate-polkit
   * Translations update
