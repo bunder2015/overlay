@@ -349,9 +349,12 @@ Changes from upstream since MATE 1.20:
 ### mate-icon-theme
   * mate: add audio-volume-off
   * Translations update
-  * sync with transifex
+  * Translations update
   * add a symlink for bluetooth icon
   * add icons for touchpad
+  * Translations update
+  * Add video single and joined display symbolic svg icons
+  * symlink input-touchpad.svg icon
 
 ### marco (window manager)
   * Translations update
