@@ -348,6 +348,8 @@ Changes from upstream since MATE 1.20:
 
 ### mate-notification-daemon
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
 
 ### mate-icon-theme
   * mate: add audio-volume-off
