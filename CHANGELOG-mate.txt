@@ -230,7 +230,7 @@ Changes from upstream since MATE 1.20:
   * Do not down-scale monitor geometries for GDK monitors
   * Scale monitor geometries down to device pixels to support multiple monitors in HiDPI
   * Drawer cleanup and fix arrow behavior
-  * sync with transifex
+  * Translations update
   * update mate-panel.pot
   * Convert launcher icons to cairo surfaces
   * fix rendering and removal of in-process applets on unexpanded panel
@@ -263,6 +263,18 @@ Changes from upstream since MATE 1.20:
   * na-tray-child: remove na_tray_child_size_allocate
   * Remove leftover from GTK2 that may play a role in cutting tray icons
   * panel-toplevel: add position css class
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * Tray: simplify force-redraw, use code that actually works
+  * Use make functions for HELP_LINGUAS
+  * menu-bar: transfer focus correctly on alt-F1
+  * update legal.xml
+  * Clock applet help: To Adjust the System Date or Time
+  * Clock applet help: Add Show week numbers in calendar
+  * Clock applet help: Fix speed unit for meters per second
+  * add fish and clock help to transifex config
+  * panel: avoid a critical
+  * panel-toplevel: fix memory leak in calculate_minimum_height
 
 ### mate-settings-daemon
   * Prevent media-keys bindings from swallowing modifier keys
