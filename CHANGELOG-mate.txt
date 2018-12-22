@@ -308,6 +308,8 @@ Changes from upstream since MATE 1.20:
 
 ### mate-polkit
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
 
 ### mate-power-manager
   * add missing window icon to About dialogs
@@ -316,12 +318,20 @@ Changes from upstream since MATE 1.20:
   * Translations update
   * inhibit: always scale icon to match panel size
   * Inhibit Applet: Fix excessive CPU use
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * Use make functions for HELP_LINGUAS
+  * add m-p-m help to transifex config
+  * gpm-button: replace deprecated Gdk functions
 
 ### mate-screensaver
   * Translations update
   * sync with transifex
   * fix more GdkScreen related deprecations
   * lock-plug: Only scale lock-screen widgets on older versions of GTK
+  * sync with transifex
+  * disable deprecation warnings for distcheck
+  * Remove "monitor" pointer from debug information
 
 ### mate-sensors-applet
   * fix save order of sensors v2
