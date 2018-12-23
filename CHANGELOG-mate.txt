@@ -334,11 +334,16 @@ Changes from upstream since MATE 1.20:
   * Remove "monitor" pointer from debug information
 
 ### mate-sensors-applet
+  * Translations update
   * fix save order of sensors v2
   * prefs-dialog: drop unneeded space in general tab
   * prefs-dialog: set a min_width for enable_column
   * prefs-dialog: use hscrollbar-policy GTK_POLICY_NEVER
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * Use make functions for HELP_LINGUAS
+  * add help to transifex config
 
 ### eom (eye of MATE graphics viewer)
   * Translations update
