@@ -413,6 +413,12 @@ Changes from upstream since MATE 1.20:
   * Translations update
   * fix crash on systems with pid 0
   * Update interval text in resources tab corrected
+  * tx: sync with transifex
+  * disable deprecation warnings for distcheck
+  * move appdata to metainfo directory
+  * Fix grammar mistake & gui label
+  * Use make functions for HELP_LINGUAS
+  * add help to transifex config
 
 ### mate-indicator-applet
   * Translations update
