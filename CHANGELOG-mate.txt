@@ -429,6 +429,11 @@ Changes from upstream since MATE 1.20:
 ### mate-terminal
   * Translations update
   * terminal-window: Fix Session dbus daemon saturated
+  * tx: sync with transifex
+  * disable deprecation warnings for distcheck
+  * Use make functions for HELP_LINGUAS
+  * Replace -Dokumentationsprojekt with Documentation Project
+  * add help to transifex config
 
 ### mate-user-guide
   * Translations update of content
