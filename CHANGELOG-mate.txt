@@ -491,3 +491,5 @@ Changes from upstream since MATE 1.20:
 
 ### python-caja
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
