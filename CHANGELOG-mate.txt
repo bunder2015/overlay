@@ -20,7 +20,7 @@ Changes from upstream since MATE 1.20:
 
 ### pluma (text editor)
   * Make notebook tabs scrollable
-  * sync with transifex
+  * Translations update
   * pluma-notebook: avoid new file with double click in vertical scrollbar
   * pluma-notebook: avoid new file with double click in forward arrow button
   * 1.20: pluma-notebook: Fix: unexpected behavior with dnd selected text
@@ -43,6 +43,9 @@ Changes from upstream since MATE 1.20:
   * pluma-view: Fix: unexpectedly switch between tabs
   * close-confirmation-dialog: Fix: don't resize the dialog unexpectedly
   * pluma-sort-plugin: avoid extra empty line
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * move appdata to metainfo directory
 
 ### atril (document viewer)
   * Disable view presentation if there is no document.
@@ -469,9 +472,22 @@ Changes from upstream since MATE 1.20:
 
 ### mate-utils
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * Use make functions for HELP_LINGUAS
+  * Replace -Dokumentationsprojekt with Documentation Project
+  * Fix spelling and grammar mistakes
+  * Update Catalan sceenshots of mate-dictionary
+  * Add Catalan screenshots
+  * add mate-dictionary help to transifex
+  * add mate-system-log help to transifex
+  * add mate-search-tool help to transifex
+  * add mate-disk-usage-analyzer to transifex
 
 ### mozo (menu editor)
   * Translations update
+  * Translations update
+  * disable deprecation warnings for distcheck
 
 ### python-caja
   * Translations update
