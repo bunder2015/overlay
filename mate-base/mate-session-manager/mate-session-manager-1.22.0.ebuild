@@ -56,6 +56,12 @@ DEPEND="${COMMON_DEPEND}
 
 MATE_FORCE_AUTORECONF=true
 
+src_prepare() {
+        # Fix systemd errors on non-systemd builds
+        # https://github.com/mate-desktop/mate-session-manager/pull/192
+        epatch "${FILESDIR}"/${PN}-1.22.0-systemd-fix.patch
+}
+
 src_configure() {
 	mate_src_configure \
 		--docdir="${EPREFIX}/usr/share/doc/${PF}" \
