@@ -1,4 +1,4 @@
-Recommended settings for MATE 1.20
+Recommended settings for MATE 1.20 / 1.22
 
 Profile:
 default/linux/amd64/17.0/desktop
