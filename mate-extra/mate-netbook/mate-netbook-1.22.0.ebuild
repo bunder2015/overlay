@@ -33,3 +33,5 @@ DEPEND="${COMMON_DEPEND}
 	>=dev-util/intltool-0.50.1:*
 	sys-devel/gettext:*
 	virtual/pkgconfig:*"
+
+PATCHES=( "${FILESDIR}"/${PN}-1.22.0-gdk_error-fix.patch )
