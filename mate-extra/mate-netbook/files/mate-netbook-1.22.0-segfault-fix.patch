@@ -1,0 +1,31 @@
+From 25f0f7141eebcb8605ddeb2c70c9a8726984545e Mon Sep 17 00:00:00 2001
+From: Pablo Barciela <scow@riseup.net>
+Date: Tue, 26 Mar 2019 16:00:37 +0100
+Subject: [PATCH] maximus: Fix 'Segmentation fault'
+
+Fixes https://github.com/mate-desktop/mate-netbook/issues/46
+---
+ maximus/main.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/maximus/main.c b/maximus/main.c
+index 267cc0a..a508367 100644
+--- a/maximus/main.c
++++ b/maximus/main.c
+@@ -64,7 +64,7 @@ gint main (gint argc, gchar *argv[])
+   MaximusApp UNUSED_VARIABLE *app;
+   GOptionContext  *context;
+   GError *error = NULL;
+-  GdkDisplay *gdk_display = gdk_display_get_default ();
++  GdkDisplay *gdk_display;
+ 
+   g_set_application_name ("Maximus");
+   
+@@ -90,6 +90,7 @@ gint main (gint argc, gchar *argv[])
+   g_option_context_parse (context, &argc, &argv, NULL);
+   g_option_context_free(context);  
+ 
++  gdk_display = gdk_display_get_default ();
+   gdk_x11_display_error_trap_push (gdk_display);
+   app = maximus_app_get_default ();
+   gdk_x11_display_error_trap_pop_ignored (gdk_display);

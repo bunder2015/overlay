@@ -34,4 +34,4 @@ DEPEND="${COMMON_DEPEND}
 	sys-devel/gettext:*
 	virtual/pkgconfig:*"
 
-PATCHES=( "${FILESDIR}"/${PN}-1.22.0-gdk_error-fix.patch )
+PATCHES=( "${FILESDIR}"/${PN}-1.22.0-segfault-fix.patch )
