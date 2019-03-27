@@ -1,6 +1,6 @@
 Changes between MATE 1.20 and 1.22:
 
-### to be updated when MATE updates their website, in the meantime see CHANGELOG-mate-1_20.txt ###
+https://mate-desktop.org/blog/2019-03-18-mate-1-22-released/
 
 Changes from upstream since MATE 1.22:
 
