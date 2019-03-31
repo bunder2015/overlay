@@ -4,4 +4,4 @@ https://mate-desktop.org/blog/2019-03-18-mate-1-22-released/
 
 Changes from upstream since MATE 1.22:
 
-### to be updated when updates are released ###
+### to be updated as updates are released ###
