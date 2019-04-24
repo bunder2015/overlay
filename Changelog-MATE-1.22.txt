@@ -1,5 +1,95 @@
 Changes to MATE 1.22 since 1.22.0 release
 
+### atril
+	1.22.1
+  * update translations
+  * help: update copyright
+  * Add documenters to translation resource
+  * Use program-name and title in gtk_show_about_dialog call
+  * Update copyright in about dialog
+  * Use g_strjoin to build license text in about dialog
+
+### caja
+	1.22.1
+    tx: sync with transifex
+    caja-progress-info: make sure argument is initialized
+    Fix invocation with --geometry from the command line
+    Pass "NULL" for keyboard event
+    caja-file: Fix incomplete file replacement dialog
+    eel-gdk-pixbuf-extensions: Fix division by zero
+    caja-file: Fix use of memory after it is freed
+    caja-icon-container: Fix use of memory after it is freed
+    fm-tree-model: Fix use of memory after it is freed
+    caja-information-panel: Fix use of memory after it is freed
+    fm-directory-view: Fix use of memory after it is freed
+    caja-tree-view-drag-dest: Fix memory leak
+    [Security] eel-string: Use 'g_strlcat' instead of 'strcat'
+    [Security] Use 'g_strlcpy' instead of 'strcpy'
+
+### caja-dropbox
+	1.22.1
+  * Use CAJA_EXTENSION_DIR_SYS to save and show system caja extension dir
+  * show full path of caja-extension-dir
+
+### engrampa
+	1.22.1
+    sync with transifex
+    Help: replace link linkend with xref linkend
+    file-utils: avoid out of bound memory access
+    actions: avoid use of memory after it is freed
+    fr-process: Fix memory leak: 'g_shell_quote' needs to be freed
+    fr-process: Fix memory leak: 'g_strconcat' needs to be freed
+    [Security] fr-process: avoid 'strcpy' and 'strcat'
+    fr-process: Fix memory leak
+    Help: Fix version to 1.22
+    help: update copyright
+    Upgrade the manual to docbook 5.0
+
+### eom
+	1.22.1
+  * Translations update
+  * store: Add any image file in the current directory to the store
+  * help: update copyright
+  * Upgrade the manual to docbook 5.0
+  * Use persistent page setup
+
+### mate-applets
+	1.22.1
+  * update translations
+  * Use g_list_free_full() convenience function
+  * Fix use-after-free clang warning
+  * help: update copyright
+  * Help: Use XInclude instead of ENTITY for legal.xml
+  * assignment discards 'const' qualifier from pointer target type
+  * Make translatable documenters in about dialog
+  * Make translatable copyright info in about dialog
+  * Ensure proper translation of the about dialog title
+
+
+### mate-control-center
+	1.22.1
+  * tx: sync with transifex
+  * default-applications: Improve UI accessibility
+  * Use keyboard device icon like in other hardware devices
+  * control-center: Fix memory leak
+  * Use GtkSeparatorMenuItem in Apparence preview
+  * Remove dead store detected by clang
+  * Use icons provided by themes and remove not used icons
+  * help: update copyright
+
+### mate-desktop
+	1.22.1
+  * Translations update
+  * Use mate-desktop icon instead of mate for mate-about
+  * Use radial gradient (Blur 13.9%, Opacity 73.4%) for MATE logo shadow
+  * mate-thumbnail-pixbuf-utils: Fix division by zero
+  * mate-bg: Fix memory leak
+  * GEN png icons from hicolor_apps_scalable_mate.svg
+  * Make translatable the program name in mate about dialog
+  * Make translatable the copyright info in mate about dialog
+  * [Security] Use 'g_strlcpy' instead of 'strcpy'
+  * [Security] test-ditem: Use 'g_strlcat' instead of 'strcat'
+
 ### mate-icon-theme
 	1.22.1
   * Translations update
@@ -22,3 +112,71 @@ Changes to MATE 1.22 since 1.22.0 release
   * Ensure volume slider is always perpendicular to the panel
   * Ensure volume icon is always correctly scaled
   * Convert GtkStatusIcon to real applet
+
+### mate-netbook
+	1.22.1
+    tx: sync with transifex
+    maximus: Fix 'Segmentation fault'
+
+### mate-power-manager
+	1.22.1
+  * tx: sync with transifex
+  * improve copyright
+  * Help: Remove About section
+  * Add conf option to disable warnings for low mouse power
+  * help: update copyright
+  * Help: Use XInclude instead of ENTITY for legal.xml
+
+### mate-screensaver
+	1.22.1
+  * Translations update
+  * Add ELOGIND support
+
+### mate-sensors-applet
+	1.22.1
+  * tx: sync with transifex
+  * help: update copyright
+  * Help: Use XInclude instead of ENTITY for legal.xml
+
+### mate-terminal
+	1.22.1
+  * Translations update
+  * Show confirmation dialog if there are multiple open tabs on closing
+  * about: update copyright
+  * Explicitly enable bright bold to match new VTE versions
+  * help: update copyright
+
+### mate-user-guide
+	1.22.1
+  * update translations
+  * replace docbook link with xref and fix a linkend attribute (#30)
+  * Fix version to 1.22
+  * help: update copyright
+  * Upgrade the manual to docbook 5.0
+
+### mate-utils
+	1.22.1
+    tx: sync with transifex
+    Fix -Werror=cast-function-type with GCC 8
+    mate-disk-usage-analyzer: Memory leak
+    GEN png icons from svg files
+    Update documenters in about dialog
+    mate-dictionary: Use g_strjoin to build license text
+    Use program-name and title in gtk_show_about_dialog call
+    help: update copyright
+
+### mozo
+	1.22.1
+  * Translations update
+  * Fix creating new menus and items
+  * Fix moving a menu corrupting the menu
+
+### pluma
+	1.22.1
+  * tx: sync with transifex
+  * update installation instructions and fix spelling and old reference
+  * Help: replace link linkend with xref linkend
+  * help: update copyright
+  * Use ITS in docbook article info, validate with dbits schemas
+  * Upgrade the manual to docbook 5.0
+
