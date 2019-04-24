@@ -41,6 +41,7 @@ DEPEND="${RDEPEND}
 	dev-util/gtk-doc
 	dev-util/gtk-doc-am
 	>=dev-util/intltool-0.50.1
+	gnome-base/librsvg
 	media-gfx/inkscape
 	sys-devel/gettext
 	virtual/pkgconfig
