@@ -60,10 +60,6 @@ DEPEND="${COMMON_DEPEND}
 	>=sys-devel/gettext-0.10.40
 	virtual/pkgconfig"
 
-PATCHES=(
-	"${FILESDIR}"/${PN}-1.22.0-fix-systemd-regression.patch
-)
-
 MATE_FORCE_AUTORECONF=true
 
 src_configure() {
