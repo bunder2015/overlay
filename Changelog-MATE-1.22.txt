@@ -53,6 +53,16 @@ Changes to MATE 1.22 since 1.22.0 release
   * Upgrade the manual to docbook 5.0
   * Use persistent page setup
 
+### marco
+	1.22.1
+  * update translations
+  * window: set atom__NET_WM_STATE_FOCUSED for meta_window_appears_focused
+  * window: make docks and spashscreens appear focused
+  * Do not judge whether the window is decorated or not
+  * screen: Fix use of memory after it is freed
+  * [Security] Use 'g_strlcpy' instead of 'strcpy'
+  * compositor-xrender: Fix memory leak
+
 ### mate-applets
 	1.22.1
   * update translations
@@ -118,6 +128,13 @@ Changes to MATE 1.22 since 1.22.0 release
     tx: sync with transifex
     maximus: Fix 'Segmentation fault'
 
+### mate-panel
+	1.22.1
+    tx: sync with transifex
+    add volume-applet to fedora layout
+    help: update copyright
+    [Security] panel-keyfile: Use 'g_strlcpy' instead of 'strcpy'
+
 ### mate-power-manager
 	1.22.1
   * tx: sync with transifex
@@ -137,6 +154,27 @@ Changes to MATE 1.22 since 1.22.0 release
   * tx: sync with transifex
   * help: update copyright
   * Help: Use XInclude instead of ENTITY for legal.xml
+
+### mate-session-manager
+	1.22.1
+    tx: sync with transifex
+    add installation instructions and update URL
+    Remove duplicate check for libelogind
+    Add ELOGIND support
+    Guard against missing systemd
+
+### mate-system-monitor
+	1.22.1
+  * Translations update
+  * support 32 cpus
+  * sysinfo: show debian version
+  * Show available disk space in ZFS
+  * Show 32/64-bit Version intead of release for Arch Linux in System tab
+  * Show OpenIndiana release and kernel info in System tab
+  * Show FreeBSD sysname, release, version in System tab
+  * Fix openSUSE Tumbleweed rolling release info
+  * gtk3: use “program-name” property in gtk_show_about_dialog
+  * help: update copyright
 
 ### mate-terminal
 	1.22.1
