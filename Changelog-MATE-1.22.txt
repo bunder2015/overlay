@@ -75,6 +75,14 @@ Changes to MATE 1.22 since 1.22.0 release
   * Make translatable copyright info in about dialog
   * Ensure proper translation of the about dialog title
 
+### mate-calc
+	1.22.1
+  * Translations update
+  * currency-manager: Update name_map in load_imf_rates
+  * display small numbers in scientific notation
+  * mp: Fix calculate result ln(e^(i*π))
+  * mate-calc: Fix memory leak
+  * i18n about dialog
 
 ### mate-control-center
 	1.22.1
