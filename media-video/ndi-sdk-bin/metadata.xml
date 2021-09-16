@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>kripton@kripserver.net</email>
+    <name>Jannis Achstetter</name>
+  </maintainer>
+  <longdescription lang="en">NDI SDK for audio and video distribution via network</longdescription>
+</pkgmetadata>
