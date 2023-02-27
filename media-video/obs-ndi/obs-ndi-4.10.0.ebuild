@@ -47,7 +47,7 @@ src_install() {
 	doins "../${P}_build/rundir/Gentoo/obs-plugins/64bit/${PN}.so"
 
 	insinto "/usr/share/obs/obs-plugins/${PN}"
-	doins -r "../${P}_build/rundir/Gentoo/data/obs-plugins/${PN}/data"
+	doins -r "../${P}_build/rundir/Gentoo/data/obs-plugins/${PN}/data/locale"
 
 	dodoc README.md
 }
