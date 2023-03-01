@@ -11,7 +11,7 @@ SRC_URI="https://github.com/Palakis/obs-ndi/releases/download/4.11.0-RC/libndi5_
 
 LICENSE="NDI_SDK"
 SLOT="0"
-#KEYWORDS="~amd64"
+KEYWORDS="~amd64"
 IUSE=""
 
 # supress QA warnings about stripping etc., i.e. stuff we cannot change since we install prebuilt binaries

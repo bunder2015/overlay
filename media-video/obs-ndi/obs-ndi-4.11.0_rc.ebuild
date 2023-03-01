@@ -14,11 +14,16 @@ SRC_URI="https://github.com/Palakis/obs-ndi/archive/refs/tags/${MY_PV}.tar.gz ->
 
 LICENSE="GPL-2"
 SLOT="0"
-#KEYWORDS="~amd64"
-IUSE=""
+KEYWORDS="~amd64"
+IUSE="qt6"
 
 DEPEND="
-	>=dev-qt/qtcore-5:5
+	qt6? (
+		dev-qt/qtbase:6
+	)
+	!qt6? (
+		dev-qt/qtcore:5
+	)
 	>=media-video/obs-studio-28
 	~media-video/ndi-sdk-bin-5.5.3"
 RDEPEND="${DEPEND}"
