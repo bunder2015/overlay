@@ -6,8 +6,8 @@ EAPI=8
 inherit unpacker
 
 DESCRIPTION="NewTek NDI SDK"
-HOMEPAGE="https://www.newtek.com/ndi/sdk/"
-SRC_URI="https://github.com/Palakis/obs-ndi/releases/download/4.11.0-RC/libndi5_${PV}-1_amd64.deb"
+HOMEPAGE="https://www.ndi.tv/sdk/"
+SRC_URI="https://github.com/obs-ndi/obs-ndi/releases/download/4.11.0/libndi5_${PV}-1_amd64.deb"
 
 LICENSE="NDI_SDK"
 SLOT="0"
