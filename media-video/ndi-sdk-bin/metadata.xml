@@ -8,5 +8,8 @@
 	<maintainer type="person">
 		<email>omfgbunder@gmail.com</email>
 	</maintainer>
-	<longdescription lang="en">NDI SDK for audio and video distribution via network</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/obs-ndi/obs-ndi</bugs-to>
+		<remote-id type="github">obs-ndi/obs-ndi</remote-id>
+	</upstream>
 </pkgmetadata>

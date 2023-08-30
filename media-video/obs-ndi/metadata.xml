@@ -9,7 +9,7 @@
 		<email>omfgbunder@gmail.com</email>
 	</maintainer>
 	<upstream>
-		<bugs-to>https://github.com/Palakis/obs-ndi</bugs-to>
+		<bugs-to>https://github.com/obs-ndi/obs-ndi</bugs-to>
+		<remote-id type="github">obs-ndi/obs-ndi</remote-id>
 	</upstream>
-	<longdescription lang="en">NDI plugin for <pkg>media-video/obs-studio</pkg></longdescription>
 </pkgmetadata>
