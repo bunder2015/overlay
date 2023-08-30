@@ -1,9 +1,9 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI="8"
 
-inherit eutils toolchain-funcs multilib
+inherit toolchain-funcs multilib
 
 DESCRIPTION="complete cross development package for 65(C)02 systems"
 HOMEPAGE="https://cc65.github.io/cc65/"
