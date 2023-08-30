@@ -5,6 +5,7 @@
 		<email>omfgbunder@gmail.com</email>
 	</maintainer>
 	<upstream>
+		<remote-id type="github">cc65/cc65</remote-id>
 		<bugs-to>https://github.com/cc65/cc65</bugs-to>
 	</upstream>
 </pkgmetadata>
