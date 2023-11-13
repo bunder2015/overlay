@@ -12,7 +12,7 @@ SRC_URI="https://github.com/obs-ndi/obs-ndi/archive/refs/tags/${PV}.tar.gz -> ${
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="-amd64"
-IUSE="qt6"
+IUSE="qt6 debug"
 
 DEPEND="
 	qt6? (
@@ -38,11 +38,11 @@ src_prepare() {
 }
 
 src_configure() {
-	CMAKE_BUILD_TYPE=Release
+	CMAKE_BUILD_TYPE=$(usex debug RelWithDebInfo Release)
 
 	local mycmakeargs=(
 		-DENABLE_QT=1
-		-DQT_VERSION_MAJOR=$(usex qt6 6 5)
+		-DQT_VERSION=$(usex qt6 6 5)
 	)
 
 	cmake_src_configure
