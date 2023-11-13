@@ -11,7 +11,7 @@ SRC_URI="https://downloads.ndi.tv/SDK/NDI_SDK_Linux/Install_NDI_SDK_v5_Linux.tar
 
 LICENSE="NDI_SDK"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="-amd64"
 IUSE=""
 
 # supress QA warnings about stripping etc., i.e. stuff we cannot change since we install prebuilt binaries
