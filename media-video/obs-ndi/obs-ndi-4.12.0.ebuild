@@ -11,7 +11,7 @@ SRC_URI="https://github.com/obs-ndi/obs-ndi/archive/refs/tags/${PV}.tar.gz -> ${
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-amd64"
+KEYWORDS="~amd64"
 IUSE="qt6"
 
 DEPEND="
@@ -38,15 +38,22 @@ src_prepare() {
 }
 
 src_configure() {
+	CMAKE_BUILD_TYPE=Release
+
+	local mycmakeargs=(
+		-DENABLE_QT=1
+		-DQT_VERSION_MAJOR=$(usex qt6 6 5)
+	)
+
 	cmake_src_configure
 }
 
 src_install() {
 	insinto /usr/lib64/obs-plugins
-	doins "../${P}_build/rundir/RelWithDebInfo/obs-plugins/64bit/${PN}.so"
+	doins "../${P}_build/${PN}.so"
 
 	insinto "/usr/share/obs/obs-plugins/${PN}"
-	doins -r "../${P}_build/rundir/RelWithDebInfo/data/obs-plugins/${PN}/data/locale"
+	doins -r "../${P}/data/locale"
 
 	dodoc README.md
 }
