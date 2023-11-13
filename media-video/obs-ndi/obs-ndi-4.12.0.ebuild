@@ -32,7 +32,7 @@ src_prepare() {
 
 	# Patch the correct path to the NDI library into the source
 	sed -e "s:/usr/lib:/usr/lib64:g" \
-		-i "src/${PN}.cpp" || die
+		-i "src/plugin-main.cpp" || die
 
 	cmake_src_prepare
 }
