@@ -12,16 +12,11 @@ SRC_URI="https://github.com/obs-ndi/obs-ndi/archive/refs/tags/${PV}.tar.gz -> ${
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="-amd64"
-IUSE="qt6 debug"
+IUSE="debug"
 
 DEPEND="
-	qt6? (
-		dev-qt/qtbase:6
-	)
-	!qt6? (
-		dev-qt/qtcore:5
-	)
-	>=media-video/obs-studio-28
+	dev-qt/qtbase:6
+	>=media-video/obs-studio-30
 	~media-video/ndi-sdk-bin-5.6.0"
 RDEPEND="${DEPEND}"
 
@@ -42,7 +37,7 @@ src_configure() {
 
 	local mycmakeargs=(
 		-DENABLE_QT=1
-		-DQT_VERSION=$(usex qt6 6 5)
+		-DQT_VERSION=6
 	)
 
 	cmake_src_configure
