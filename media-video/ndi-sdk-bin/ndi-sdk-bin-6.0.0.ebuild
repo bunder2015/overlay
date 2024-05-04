@@ -7,11 +7,11 @@ inherit unpacker
 
 DESCRIPTION="NewTek NDI SDK"
 HOMEPAGE="https://www.ndi.tv/sdk/"
-SRC_URI="https://downloads.ndi.tv/SDK/NDI_SDK_Linux/Install_NDI_SDK_v5_Linux.tar.gz"
+SRC_URI="https://downloads.ndi.tv/SDK/NDI_SDK_Linux/Install_NDI_SDK_v6_Linux.tar.gz -> Install_NDI_SDK_v6.0.0_Linux.tar.gz"
 
 LICENSE="NDI_SDK"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="-amd64"
 IUSE=""
 
 # supress QA warnings about stripping etc., i.e. stuff we cannot change since we install prebuilt binaries
@@ -26,16 +26,16 @@ src_unpack() {
 	unpack ${A}
 	tar xvf "${WORKDIR}/ndi-sdk-${PV}-Linux"
 
-	ARCHIVE=`awk '/^__NDI_ARCHIVE_BEGIN__/ { print NR+1; exit 0; }' "${WORKDIR}/Install_NDI_SDK_v5_Linux.sh"`
-	tail -n+$ARCHIVE "${WORKDIR}/Install_NDI_SDK_v5_Linux.sh" | tar xvz
+	ARCHIVE=`awk '/^__NDI_ARCHIVE_BEGIN__/ { print NR+1; exit 0; }' "${WORKDIR}/Install_NDI_SDK_v6_Linux.sh"`
+	tail -n+$ARCHIVE "${WORKDIR}/Install_NDI_SDK_v6_Linux.sh" | tar xvz
 
 	S="${WORKDIR}/NDI SDK for Linux"
 }
 
 src_install() {
 	dolib.so "${S}/lib/x86_64-linux-gnu/libndi.so.${PV}"
-	dosym "libndi.so.${PV}" "/usr/lib64/libndi.so.5"
-	dosym "libndi.so.5" "/usr/lib64/libndi.so"
+	dosym "libndi.so.${PV}" "/usr/lib64/libndi.so.6"
+	dosym "libndi.so.6" "/usr/lib64/libndi.so"
 	for header in `ls "${S}/include/"`; do
 		doheader "${S}/include/${header}"
 	done

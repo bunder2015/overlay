@@ -17,7 +17,7 @@ IUSE="debug"
 DEPEND="
 	dev-qt/qtbase:6
 	>=media-video/obs-studio-30
-	~media-video/ndi-sdk-bin-5.6.0"
+	>=media-video/ndi-sdk-bin-5.6.1"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${P}"
