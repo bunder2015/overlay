@@ -7,7 +7,7 @@ inherit unpacker
 
 DESCRIPTION="NewTek NDI SDK"
 HOMEPAGE="https://www.ndi.tv/sdk/"
-SRC_URI="https://downloads.ndi.tv/SDK/NDI_SDK_Linux/Install_NDI_SDK_v6_Linux.tar.gz -> Install_NDI_SDK_v6.0.0_Linux.tar.gz"
+SRC_URI="https://downloads.ndi.tv/SDK/NDI_SDK_Linux/Install_NDI_SDK_v6_Linux.tar.gz -> Install_NDI_SDK_v${PV}_Linux.tar.gz"
 
 LICENSE="NDI_SDK"
 SLOT="0"
@@ -24,7 +24,6 @@ RDEPEND="
 
 src_unpack() {
 	unpack ${A}
-	tar xvf "${WORKDIR}/ndi-sdk-${PV}-Linux"
 
 	ARCHIVE=`awk '/^__NDI_ARCHIVE_BEGIN__/ { print NR+1; exit 0; }' "${WORKDIR}/Install_NDI_SDK_v6_Linux.sh"`
 	tail -n+$ARCHIVE "${WORKDIR}/Install_NDI_SDK_v6_Linux.sh" | tar xvz
