@@ -8,4 +8,4 @@ Contained in this repository are some ebuilds for packages that I use or have us
 
 - `dev-embedded/cc65` C Compiler and Assembler for 6502-based computers and video game consoles.
 - `media-video/ndi-sdk-bin` NewTek NDI SDK (needed to compile `obs-ndi`)
-- `media-video/obs-ndi`Plugin for the Open Broadcaster System to support NDI A/V-over-IP communication
+- `media-video/DistroAV`Plugin for the Open Broadcaster System to support NDI A/V-over-IP communication
