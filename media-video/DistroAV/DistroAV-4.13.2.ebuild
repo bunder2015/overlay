@@ -6,8 +6,8 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="OBS plugin to integrate with the NDI SDK"
-HOMEPAGE="https://github.com/obs-ndi/obs-ndi"
-SRC_URI="https://github.com/obs-ndi/obs-ndi/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/DistroAV/DistroAV"
+SRC_URI="https://github.com/DistroAV/DistroAV/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
