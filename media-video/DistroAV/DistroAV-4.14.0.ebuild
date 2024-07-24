@@ -37,7 +37,6 @@ src_configure() {
 
 	local mycmakeargs=(
 		-DENABLE_QT=1
-		-DQT_VERSION=6
 	)
 
 	cmake_src_configure
@@ -45,7 +44,7 @@ src_configure() {
 
 src_install() {
 	insinto /usr/lib64/obs-plugins
-	doins "../${P}_build/${PN}.so"
+	doins "../${P}_build/obs-ndi.so"
 
 	insinto "/usr/share/obs/obs-plugins/${PN}"
 	doins -r "../${P}/data/locale"
