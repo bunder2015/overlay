@@ -35,6 +35,9 @@ src_install() {
 	dolib.so "${S}/lib/x86_64-linux-gnu/libndi.so.${PV}"
 	dosym "libndi.so.${PV}" "/usr/lib64/libndi.so.6"
 	dosym "libndi.so.6" "/usr/lib64/libndi.so"
+	# Fix for DistroAV not looking for v6
+	dosym "libndi.so.6" "/usr/lib64/libndi.so.5"
+
 	for header in `ls "${S}/include/"`; do
 		doheader "${S}/include/${header}"
 	done
