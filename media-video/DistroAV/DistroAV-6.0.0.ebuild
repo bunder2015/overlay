@@ -20,7 +20,9 @@ DEPEND="
 	>=media-video/ndi-sdk-bin-6.0.0"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/${P}"
+# Using uppercase letters in the install directory causes the plugin
+# to not be able to find its locale files
+MY_PN="distroav"
 
 src_prepare() {
 	default
@@ -43,10 +45,12 @@ src_configure() {
 }
 
 src_install() {
+	# The .so file uses a lowercase filename
 	insinto /usr/lib64/obs-plugins
-	doins "../${P}_build/distroav.so"
+	doins "../${P}_build/${MY_PN}.so"
 
-	insinto "/usr/share/obs/obs-plugins/${PN}"
+	# PN needs to be lowercase
+	insinto "/usr/share/obs/obs-plugins/${MY_PN}"
 	doins -r "../${P}/data/locale"
 
 	dodoc README.md
