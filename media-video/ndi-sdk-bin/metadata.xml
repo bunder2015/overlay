@@ -2,14 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>kripton@kripserver.net</email>
-		<name>Jannis Achstetter</name>
-	</maintainer>
-	<maintainer type="person">
 		<email>omfgbunder@gmail.com</email>
 	</maintainer>
 	<upstream>
-		<bugs-to>https://github.com/obs-ndi/obs-ndi</bugs-to>
-		<remote-id type="github">obs-ndi/obs-ndi</remote-id>
+		<bugs-to>https://github.com/bunder2015/overlay</bugs-to>
+		<remote-id type="github">bunder2015/overlay</remote-id>
 	</upstream>
 </pkgmetadata>

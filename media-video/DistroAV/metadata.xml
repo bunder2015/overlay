@@ -2,10 +2,6 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>kripton@kripserver.net</email>
-		<name>Jannis Achstetter</name>
-	</maintainer>
-	<maintainer type="person">
 		<email>omfgbunder@gmail.com</email>
 	</maintainer>
 	<upstream>

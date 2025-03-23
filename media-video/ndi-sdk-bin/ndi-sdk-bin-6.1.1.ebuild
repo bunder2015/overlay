@@ -22,6 +22,13 @@ RDEPEND="
 	net-dns/avahi[dbus]
 	${DEPEND}"
 
+pkg_pretend() {
+	elog "The download tarball for the NDI SDK is not fully versioned, this may"
+	elog "cause checksum verification issues from time to time as NDI releases"
+	elog "new versions.  If this happens, please report the issue to:"
+	elog "https://github.com/bunder2015/overlay to have the ebuild updated."
+}
+
 src_unpack() {
 	unpack ${A}
 
