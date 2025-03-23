@@ -15,9 +15,9 @@ KEYWORDS="~amd64"
 IUSE="debug"
 
 DEPEND="
-	dev-qt/qtbase:6
-	>=media-video/obs-studio-30
-	>=media-video/ndi-sdk-bin-6.0.0"
+	dev-qt/qtbase:6=
+	>=media-video/obs-studio-30:=
+	>=media-video/ndi-sdk-bin-6.0.0:="
 RDEPEND="${DEPEND}"
 
 # Using uppercase letters in the install directory causes the plugin
