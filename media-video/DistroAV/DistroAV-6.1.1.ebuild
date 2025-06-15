@@ -14,6 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="debug"
 
+# TODO: obs-studio and ndi-sdk-bin don't support slotting yet
 DEPEND="
 	dev-qt/qtbase:6=
 	>=media-video/obs-studio-30:=
