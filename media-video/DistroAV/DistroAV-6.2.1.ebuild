@@ -17,8 +17,8 @@ IUSE="debug"
 # TODO: obs-studio and ndi-sdk-bin don't support slotting yet
 DEPEND="
 	dev-qt/qtbase:6=
-	>=media-video/obs-studio-30:=
-	>=media-video/ndi-sdk-bin-6.0.0:="
+	>=media-video/obs-studio-31.1.1:=
+	>=media-video/ndi-sdk-bin-6.3.0:="
 RDEPEND="${DEPEND}"
 
 # Using uppercase letters in the install directory causes the plugin
